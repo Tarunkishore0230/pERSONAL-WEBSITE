@@ -1,0 +1,58 @@
+body{
+    margin:0px;
+    text-align: center;
+    font-family: "ruso one", sans-serif;
+}
+div{
+    background-color: #D3ECA7;
+}
+h1{
+    text-align: center;
+    margin:0;
+    font-size: 100rem;
+    margin-top: 50px;
+    font-family: "julius sans one", sans-serif;
+}
+h2{
+    font-family: "julius sans one", sans-serif;
+    font-size: 2.5rem;
+}
+/* 1em = 16px 
+box model include width/height
+{padding:20px} desides the gap btwn pic/text and border
+{margin:10px} gap btwn border of image/text to the page border */
+.top-container{
+    background-color: #D3ECA7;
+    position: relative;
+    padding-top: 100px;
+    /* border:solid 10px; */
+    /* height:200px;
+    width:200px; */
+}
+/* .middle-container{
+
+}
+.bottom-container{
+
+} */
+.pro{
+    text-decoration: underline;
+}
+/* there are 4 dsiplay properties : 1)inline 2)block 3)inline-block 4)none
+in case we need to add two different paragraph tags we have to use code named {display:inline} & to display two words on same line into two diff. lines we must use {display:block}
+we can also use {display: inline-block} 
+{display:none;} is used for removing element as they didnot exist*/
+
+.bottom-cloud{
+    position:absolute;
+    margin-left: 300px;
+    margin-bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+}
+.circular{
+    border-radius: 70rem;
+}
